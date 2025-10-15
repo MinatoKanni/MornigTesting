@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="471.885" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Navia Online Trading Market Login" name="Login Navia" time="69.71">
+<system-out><![CDATA[
+Given User Navigate to Navia................................................passed
+When User Click login with client code......................................passed
+And User Enter Client Code..................................................passed
+And User  Enter Password....................................................passed
+And User Click Agree CheckBox...............................................passed
+And User Click Login button.................................................passed
+And User Click Otp Verification and enter manualy...........................passed
+And User Click Login Again..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Add and Remove Any Script and Verify" time="38.858">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User click the search box...............................................passed
+And User Search any "SWIGGY" Script.........................................passed
+And User Mouse Over and Add a Script "SWIGGY"...............................passed
+And User POP Up Message Appear Verify POP UP................................passed
+And User Remove The "SWIGGY" Stock..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Payin add money in navia" time="31.66">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click The Withdraw button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Payin add money in navia" time="73.729">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click Add Money....................................................passed
+And User enter money in amount to add.......................................passed
+And User Choose Pay Using UPI...............................................passed
+And User Enter UPI/ID/Mobile Number and click pay now.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="User Check The Mutual Fund -  UPI Payment - functionality" time="54.579">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User MouseOver Dashboard and Click Mutual Funds.........................passed
+And User Click Explore......................................................passed
+And User Search "Navi Flexi Cap Fund Direct Plan Growth" in Serach Box and enter.passed
+And User Click One Time , enter amount "100" and click pay now..............passed
+And User Click enter UPI ID "kanniappanb7-1@oksbi" and Click Pay Via UPI....passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Verify the Charts Changes in Different Minutes and Days" time="81.278">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click the Watch List...............................................passed
+And User Select scrip "S&P BSE SENSEX"......................................passed
+And User Click Watch List Again.............................................passed
+And User mouse over the scrip "Nifty 50"....................................passed
+And User Click the Candles Icon.............................................passed
+And User Choose Candle "candle".............................................passed
+And User Check the one Minute and one Day Chart.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Verify the Charts Changes in Different Minutes and Days" time="56.938">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Click the Watch List...............................................passed
+And User Select scrip "S&P BSE SENSEX"......................................passed
+And User mouse over the scrip "SENSEX"......................................passed
+And User Click the Candles Icon.............................................passed
+And User Choose Candle "candle".............................................passed
+And User Check the one Minute and one Day Chart.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navia Online Trading Market Login" name="Verify the Charts Changes in Different Minutes and Days" time="64.816">
+<system-out><![CDATA[
+When Navigate to home page..................................................passed
+And User Select The "ICICIBANK" Stock or F&O to Chart.......................passed
+And User Select The "HDFCBANK" Stock or F&O to Chart........................passed
+]]></system-out>
+</testcase>
+</testsuite>
