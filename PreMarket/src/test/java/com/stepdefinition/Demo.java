@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import com.baseclass.BaseClass;
-
 import io.cucumber.java.en.When;
 
 public class Demo extends BaseClass{
