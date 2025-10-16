@@ -5,7 +5,6 @@ import java.awt.Desktop.Action;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
 import com.baseclass.BaseClass;
 
 import io.cucumber.java.en.When;
@@ -45,8 +44,7 @@ public class Demo extends BaseClass{
 		Thread.sleep(1000);
 
 	}
-	
-	
+
 	@When("User Search {string} in Serach Box and enter")
 	public void user_search_in_serach_box_and_enter(String string) throws InterruptedException {
 		Thread.sleep(1000);
@@ -89,7 +87,7 @@ public class Demo extends BaseClass{
 	@When("User Click The Current {string} Options")
 	public void user_click_the_current_options(String string) throws InterruptedException {
 	   
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		
 		switch (string) {
 		
