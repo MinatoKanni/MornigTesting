@@ -38,7 +38,6 @@ public class Demo extends BaseClass{
 		ac.moveToElement(element).perform();
 
 		Thread.sleep(2000);
-
 		driver.findElement(By.xpath("//span[text()='Explore']//parent::button")).click();
 		Thread.sleep(1000);
 
