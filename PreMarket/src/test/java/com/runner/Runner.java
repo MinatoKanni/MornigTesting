@@ -28,7 +28,6 @@ public class Runner {
 	
 	public static WebDriver driver;
 
-	
 	@BeforeClass
 	public static void browserLaunch(){
 		
