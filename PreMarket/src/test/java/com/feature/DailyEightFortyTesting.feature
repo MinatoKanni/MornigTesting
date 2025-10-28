@@ -98,12 +98,5 @@ Scenario: Verify the Charts Changes in Different Minutes and Days
 #    And User Click Yes in Pop up
 #    Then Verify the Modify Notification popup
 
-#Scenario: Cancel the Scrip
-#
-#    When Navigate to home page
-#    And User Click Pending Order
-#    And User Click Selected Scrip "WIPRO" Edit
-#    And User Click Cancel
-#    And User Click Yes for Confirmation
-#    Then User Verify the Cancellation Notification Popup
+
 
