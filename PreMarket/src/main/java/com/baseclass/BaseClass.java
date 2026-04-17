@@ -39,11 +39,12 @@ public class BaseClass {
 	public static WebDriver launchBroswer(String browser) {
 
 		if (browser.equalsIgnoreCase("Chrome")) {
-			WebDriverManager.chromedriver().setup();
-
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-notifications");
-			driver = new ChromeDriver(options);
+options.addArguments("--headless=new");  // important
+options.addArguments("--disable-gpu");
+options.addArguments("--window-size=1920,1080");
+
+WebDriver driver = new ChromeDriver(options);
 		}
 
 		else if (browser.equalsIgnoreCase("edge")) {
